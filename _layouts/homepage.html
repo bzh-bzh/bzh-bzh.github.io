@@ -60,10 +60,17 @@
         <br>
         <br>
         <div class="social-icons">
-        {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
+        <!-- {% if site.ads %}
+        <!-- Currently can't get this to center for the life of me so giving up -->
+        <a style="margin: 0 5px 0 0; height: fit-content; text-align: center;" href="{{ site.ads }}">
+          <img src="./assets/img/ads_partial_logo_dark_background.svg" alt="ADS logo" style="height: fit-content;">
+        </a>
+        {% endif %} -->
+
+        {% if site.orcid %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
+          <i class="fab fa-orcid"></i>
+        </a>
         {% endif %}
 
         {% if site.cv_link %}
@@ -100,7 +107,7 @@
       <br>
 
       {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme. ADS logo modified from <a href="https://ui.adsabs.harvard.edu/help/logos/">SAO/NASA.</a></small></p>
       {% endif %}
 
       </section>
