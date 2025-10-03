@@ -4,11 +4,11 @@ layout: homepage
 
 ## About me
 
-I'm a physics PhD student at the University of Southern California, working with [Prof. Kris Pardo](http://kpardo.com/). My current research interests are in novel methods to detect gravitational waves, and in probing the large-scale structure of the universe.
+I'm a physics PhD candidate at the University of Southern California, working with [Prof. Kris Pardo](http://kpardo.com/). My current research interests are in novel methods to detect gravitational waves, and in probing the large-scale structure of the universe.
 
 I'm also interested in using GPUs to speed up scientific computation, applying [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation) to the same, and generally making computers go fast.
 
-In my spare time, I like to hike, play complicated board games, and read entirely too much science fiction (read Greg Egan btw).
+In my spare time, I like to hike, play complicated board games, and read entirely too much science fiction.
 
 ## Research
 
